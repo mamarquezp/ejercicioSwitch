@@ -1,0 +1,17 @@
+// Ejercicio 3 SWITCH
+let tipoDeDestino = prompt(`Ingrese el destino de su paquete:
+1 - Dentro del país
+2 - Fuera del país`)
+const tipoDeDestinoEntero = parseInt(tipoDeDestino)
+let pesoDelPaquete = Number( prompt(`Ingrese el peso del paquete en Kilogramos`))
+let precioEnvio = 0
+switch (tipoDeDestinoEntero) {
+        case 1:
+            precioEnvio = 10
+            break
+        case 2:
+            precioEnvio = 20
+            break
+}
+let totalEnvio = precioEnvio * pesoDelPaquete
+alert(`Su total a pagar es de: ${totalEnvio.toFixed(2)} dólares`)

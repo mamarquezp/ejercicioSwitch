@@ -1,0 +1,13 @@
+// Ejercicio 2 SWITCH
+let edadDelVisitante = prompt(`Ingrese la edad del visitante`)
+const edadDelVisitanteEntero = parseInt(edadDelVisitante)
+let costoDeEntrada = 0                      
+if (edadDelVisitanteEntero>60) {
+    costoDeEntrada = 15
+} else if(edadDelVisitanteEntero>=12){
+    costoDeEntrada = 20
+}
+else{
+    costoDeEntrada = 10
+}
+alert(`El costo de su entrada es: ${costoDeEntrada} dólares`)

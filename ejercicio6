@@ -1,0 +1,87 @@
+// Ejercicio 6 SWITCH
+let letra = prompt(`Ingrese una letra del alfabeto (minúsculas)`)
+let tipoLetra = null
+switch (letra) {
+        case "a":
+            tipoLetra = "Vocal"
+            break
+        case "b":
+            tipoLetra = "Consonante"
+            break
+        case "c":
+            tipoLetra = "Consonante"
+            break
+        case "d":
+            tipoLetra = "Consonante"
+            break        
+        case "e":
+            tipoLetra = "Vocal"
+            break
+        case "f":
+            tipoLetra = "Consonante"
+            break
+        case "g":
+            tipoLetra = "Consonante"
+            break
+        case "h":
+            tipoLetra = "Consonante"
+            break        
+        case "i":
+            tipoLetra = "Vocal"
+            break
+        case "j":
+            tipoLetra = "Consonante"
+            break
+        case "k":
+            tipoLetra = "Consonante"
+            break
+        case "l":
+            tipoLetra = "Consonante"
+            break
+        case "m":
+            tipoLetra = "Consonante"
+            break
+        case "n":
+            tipoLetra = "Consonante"
+            break
+        case "ñ":
+            tipoLetra = "Consonante"
+            break        
+        case "o":
+            tipoLetra = "Vocal"
+            break
+        case "p":
+            tipoLetra = "Consonante"
+            break
+        case "q":
+            tipoLetra = "Consonante"
+            break
+        case "r":
+            tipoLetra = "Consonante"
+            break
+        case "s":
+            tipoLetra = "Consonante"
+            break
+        case "t":
+            tipoLetra = "Consonante"
+            break        
+        case "u":
+            tipoLetra = "Vocal"
+            break
+        case "v":
+            tipoLetra = "Consonante"
+            break
+        case "w":
+            tipoLetra = "Consonante"
+            break
+        case "x":
+            tipoLetra = "Consonante"
+            break
+        case "y":
+            tipoLetra = "Consonante"
+            break
+        case "z":
+            tipoLetra = "Consonante"
+            break        
+}
+alert(`La letra ${letra} es ${tipoLetra}`)

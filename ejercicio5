@@ -1,0 +1,27 @@
+// Ejercicio 5 SWITCH
+let nombreDia = prompt(`Ingrese el nombre del día de la semana (minúsculas)`)
+let tipoDeDia = null
+switch (nombreDia) {
+        case "domingo":
+            tipoDeDia = "Fin de Semana"
+            break
+        case "lunes":
+            tipoDeDia = "Laborable"
+            break
+        case "martes":
+            tipoDeDia = "Laborable"
+            break
+        case "miércoles":
+            tipoDeDia = "Laborable"
+            break
+        case "jueves":
+            tipoDeDia = "Laborable"
+            break
+        case "viernes":
+            tipoDeDia = "Laborable"
+            break
+         case "sábado":
+            tipoDeDia = "Fin de Semana"
+            break
+}
+alert(` ${nombreDia} es ${tipoDeDia}`)

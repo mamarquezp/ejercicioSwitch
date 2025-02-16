@@ -1,0 +1,42 @@
+// Ejercicio 4 SWITCH
+let nombreMes = prompt(`Ingrese el nombre del mes (minúsculas)`)
+let cantidadDias = 0
+switch (nombreMes) {
+        case "enero":
+            cantidadDias = 31
+            break
+        case "febrero":
+            cantidadDias = 28
+            break
+        case "marzo":
+            cantidadDias = 31
+            break
+        case "abril":
+            cantidadDias = 30
+            break
+        case "mayo":
+            cantidadDias = 31
+            break
+        case "junio":
+            cantidadDias = 30
+            break
+         case "julio":
+            cantidadDias = 31
+            break
+        case "agosto":
+            cantidadDias = 31
+            break
+        case "septiembre":
+            cantidadDias = 30
+            break
+        case "octubre":
+            cantidadDias = 31
+            break
+        case "noviembre":
+            cantidadDias = 30
+            break
+        case "diciembre":
+            cantidadDias = 31
+            break
+}
+alert(` ${nombreMes} tiene ${cantidadDias} días`)

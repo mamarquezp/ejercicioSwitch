@@ -1,0 +1,20 @@
+// Ejercicio 1 SWITCH
+let tipoDeCliente = prompt(`Ingrese el tipo de cliente:
+1 - Estudiante
+2 - Adulto Mayor
+3 - Cliente Frecuente`)
+const tipoDeClienteEntero = parseInt(tipoDeCliente)
+let montoConsumido = Number( prompt(`Ingrese el total de la compra`))
+let montoTotalConsumido = 0
+switch (tipoDeClienteEntero) {
+        case 1:
+            montoTotalConsumido = montoConsumido * (1 - 0.1)
+            break
+        case 2:
+            montoTotalConsumido = montoConsumido * (1 - 0.15)
+            break
+        case 3:
+            montoTotalConsumido = montoConsumido * (1 - 0.2)
+            break
+}
+alert(`Su total a pagar es de: ${montoTotalConsumido.toFixed(2)} `)

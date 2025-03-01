@@ -38,5 +38,9 @@ switch (nombreMes) {
         case "diciembre":
             cantidadDias = 31
             break
+    default:
+        alert(`Selección no válida (escriba el nombre del mes en minúsculas)`)
 }
-alert(` ${nombreMes} tiene ${cantidadDias} días`)
+if (cantidadDias != 0) {
+    alert(` ${nombreMes} tiene ${cantidadDias} días`)
+}

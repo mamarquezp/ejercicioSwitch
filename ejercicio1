@@ -6,15 +6,19 @@ let tipoDeCliente = prompt(`Ingrese el tipo de cliente:
 const tipoDeClienteEntero = parseInt(tipoDeCliente)
 let montoConsumido = Number( prompt(`Ingrese el total de la compra`))
 let montoTotalConsumido = 0
+let descuentoAplicar = 0
 switch (tipoDeClienteEntero) {
         case 1:
-            montoTotalConsumido = montoConsumido * (1 - 0.1)
+            descuentoAplicar = (0.1)
             break
         case 2:
-            montoTotalConsumido = montoConsumido * (1 - 0.15)
+            descuentoAplicar = (0.15)
             break
         case 3:
-            montoTotalConsumido = montoConsumido * (1 - 0.2)
+           descuentoAplicar = (0.2)
             break
+        default:
+                alert(`Selección no válida`)
 }
-alert(`Su total a pagar es de: ${montoTotalConsumido.toFixed(2)} `)
+montoTotalConsumido = montoConsumido * (1-descuentoAplicar)
+alert(`Su total a pagar es de: ${montoTotalConsumido.toFixed(2)} su descuento fue de ${descuentoAplicar * 100}%`)

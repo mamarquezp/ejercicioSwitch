@@ -23,5 +23,9 @@ switch (nombreDia) {
          case "sábado":
             tipoDeDia = "Fin de Semana"
             break
+    default:
+        alert(`Selección no válida`)
 }
-alert(` ${nombreDia} es ${tipoDeDia}`)
+if (tipoDeDia != null) {
+    alert(` ${nombreDia} es ${tipoDeDia}`)    
+}

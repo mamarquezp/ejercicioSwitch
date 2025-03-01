@@ -83,5 +83,9 @@ switch (letra) {
         case "z":
             tipoLetra = "Consonante"
             break        
+    default:
+        alert(`Selección no válida`)
 }
-alert(`La letra ${letra} es ${tipoLetra}`)
+if (tipoLetra != null) {
+    alert(`La letra ${letra} es ${tipoLetra}`)
+}
